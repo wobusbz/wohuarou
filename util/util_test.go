@@ -28,4 +28,8 @@ func TestHTTPGet(t *testing.T) {
 
 func TestRandUserAgent(t *testing.T) {
 	t.Log(RandUserAgent())
+	var User = map[string][]string{
+		"abc": []string{"abc"},
+	}
+	t.Log(User)
 }

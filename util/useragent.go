@@ -28,8 +28,5 @@ var userAgent = []string{
 func RandUserAgent() map[string][]string {
 	rand.Seed(time.Now().UnixNano())
 	key := rand.Intn(len(userAgent))
-	agent := make(map[string][]string, 1)
-	var agentList []string
-	agent["User-Agent"] = append(agentList, userAgent[key])
-	return agent
+	return map[string][]string{"User-Agent": []string{userAgent[key]}}
 }
