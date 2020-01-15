@@ -25,3 +25,7 @@ func TestHTTPGet(t *testing.T) {
 		}
 	}
 }
+
+func TestRandUserAgent(t *testing.T) {
+	t.Log(RandUserAgent())
+}
