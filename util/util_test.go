@@ -14,7 +14,7 @@ var httpUnitTest = []struct {
 }
 
 func TestHTTPGet(t *testing.T) {
-	var url = "http://www.baidu.com"
+	var url = "http://html.moko.cc/"
 	resp, err := HTTPGet(url)
 	if resp.Status != "200" && err != nil {
 		t.Errorf("reality: %s  expect:%d", resp.Status, 200)
@@ -28,8 +28,4 @@ func TestHTTPGet(t *testing.T) {
 
 func TestRandUserAgent(t *testing.T) {
 	t.Log(RandUserAgent())
-	var User = map[string][]string{
-		"abc": []string{"abc"},
-	}
-	t.Log(User)
 }

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67c37b71-dd7c-42b0-8883-52c75be07c35" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/wuhuarou/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global/app.go" afterDir="false" />
+    <list default="true" id="67c37b71-dd7c-42b0-8883-52c75be07c35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/config.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/util_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,14 +15,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="I:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -56,7 +58,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wuhuarou\config" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -80,25 +87,34 @@
     <MESSAGE value="添加User-Agent" />
     <MESSAGE value="test" />
     <MESSAGE value="修改User-Agent单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改User-Agent单元测试" />
+    <MESSAGE value="构建整个爬虫项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建整个爬虫项目结构" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="628" y="146" key="CommitChangelistDialog2" timestamp="1579109170550">
+    <state x="756" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579110157904">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="146" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109170550" />
+    <state x="756" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579110157904" />
+    <state x="628" y="146" key="CommitChangelistDialog2" timestamp="1579109848607">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="628" y="146" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109848607" />
     <state x="845" y="469" width="382" height="173" key="Github.CreateGistDialog" timestamp="1579106019445">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="845" y="469" width="382" height="173" key="Github.CreateGistDialog/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579106019445" />
-    <state x="526" y="198" key="SettingsEditor" timestamp="1579106070394">
+    <state x="526" y="198" key="SettingsEditor" timestamp="1579110530919">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="526" y="198" key="SettingsEditor/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579106070394" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1579109179257">
+    <state x="526" y="198" key="SettingsEditor/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579110530919" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1579109859322">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109179257" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109859322" />
     <state x="738" y="347" key="git4idea.merge.GitPullDialog" timestamp="1579106354752">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
