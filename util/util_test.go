@@ -17,7 +17,7 @@ func TestHTTPGet(t *testing.T) {
 	var url = "http://html.moko.cc/"
 	resp, err := HTTPGet(url)
 	if resp.Status != "200" && err != nil {
-		t.Errorf("reality: %s  expect:%d", resp.Status, 200)
+		t.Errorf("reality: %s expect:%d", resp.Status, 200)
 	}
 	for _, v := range httpUnitTest {
 		if resp, err := v.f(url); resp.Status != v.out && err != nil {
