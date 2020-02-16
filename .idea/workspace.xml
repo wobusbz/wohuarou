@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67c37b71-dd7c-42b0-8883-52c75be07c35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.toml" afterDir="false" />
+    <list default="true" id="67c37b71-dd7c-42b0-8883-52c75be07c35" name="Default Changelist" comment="util">
+      <change afterPath="$PROJECT_DIR$/http/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/global/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/useragent.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/useragent.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/util_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/util_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +90,12 @@
     <MESSAGE value="test" />
     <MESSAGE value="修改User-Agent单元测试" />
     <MESSAGE value="构建整个爬虫项目结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="构建整个爬虫项目结构" />
+    <MESSAGE value="run" />
+    <MESSAGE value="配置文件" />
+    <MESSAGE value="全局初始化" />
+    <MESSAGE value="逻辑处理" />
+    <MESSAGE value="util" />
+    <option name="LAST_COMMIT_MESSAGE" value="util" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -99,10 +106,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="756" y="359" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579110157904" />
-    <state x="628" y="146" key="CommitChangelistDialog2" timestamp="1579109848607">
+    <state x="628" y="146" key="CommitChangelistDialog2" timestamp="1579111588756">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="146" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109848607" />
+    <state x="628" y="146" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579111588756" />
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1581869736852">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1581869736852" />
     <state x="845" y="469" width="382" height="173" key="Github.CreateGistDialog" timestamp="1579106019445">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -111,13 +122,13 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="198" key="SettingsEditor/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579110530919" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1579109859322">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1581870229372">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579109859322" />
-    <state x="738" y="347" key="git4idea.merge.GitPullDialog" timestamp="1579106354752">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1581870229372" />
+    <state x="738" y="347" key="git4idea.merge.GitPullDialog" timestamp="1581870218156">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="738" y="347" key="git4idea.merge.GitPullDialog/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1579106354752" />
+    <state x="738" y="347" key="git4idea.merge.GitPullDialog/0.0.2048.1112/2560.0.1920.1040@0.0.2048.1112" timestamp="1581870218156" />
   </component>
 </project>

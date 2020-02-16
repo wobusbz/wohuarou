@@ -5,6 +5,10 @@ import (
 	"time"
 )
 
+func init() {
+	rand.Seed(time.Now().UnixNano())
+}
+
 var userAgent = []string{
 	"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.163 Safari/535.1",
 	"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0) Gecko/20100101 Firefox/6.0",
@@ -26,7 +30,5 @@ var userAgent = []string{
 }
 
 func RandUserAgent() map[string][]string {
-	rand.Seed(time.Now().UnixNano())
-	key := rand.Intn(len(userAgent))
-	return map[string][]string{"User-Agent": []string{userAgent[key]}}
+	return map[string][]string{"User-Agent": []string{userAgent[rand.Intn(len(userAgent))]}}
 }
