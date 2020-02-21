@@ -10,6 +10,7 @@ import (
 
 func init() {
 	App.Date = time.Now()
+	App.RootDir = inferRootDir()
 }
 
 func inferRootDir() string {
